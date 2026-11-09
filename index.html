@@ -269,6 +269,7 @@ html.translated-ltr .trbar,html.translated-rtl .trbar{display:block}
 .pcard:not(.key) .sub{color:var(--on-dark)}
 .inl{margin:12px 0}
 .inl .pic{margin-top:0}
+.pic.full{max-height:none;object-fit:contain;margin-bottom:14px}
 .inl figcaption{font-size:12.5px;margin-top:6px;opacity:.85}
 
 html,body{height:100%}
@@ -293,6 +294,7 @@ html,body{height:100%}
 .about .book{margin-top:16px;display:flex;flex-direction:column;gap:8px}
 .about .book span{font:700 11px var(--body);letter-spacing:.16em;text-transform:uppercase;color:#f2c9a4}
 .about .primary{margin-top:0;background:var(--sand);color:var(--ink)}
+.about .primary.alt{background:transparent;color:var(--on-dark);border:1px solid rgba(240,232,220,.35)}
 .about .social{margin:16px 0 0;display:flex;justify-content:center;gap:10px;font-size:13.5px}
 .about .social a{color:#f2c9a4;text-decoration:none;font-weight:600}
 .tabbar.three{grid-template-columns:repeat(3,1fr)}
@@ -320,7 +322,7 @@ button.tab{background:none;border:0;cursor:pointer;font:inherit;font-size:12.5px
     <h2 id="abT">About our homes</h2>
     <p>Reyium Retreats &amp; Riverfront Rentals is a collection of private homes in Three Rivers, California, where the Kaweah River meets the foothills at the gateway to Sequoia National Park. Surrounded by towering sequoias and the sound of moving water, each home is a quiet place to slow down, reconnect and recharge.</p>
     <p>Reyium began as a spiritual destination and wellness center, and that spirit runs through everything: thoughtful design, nature, art and hosts who care. Whether you&#x27;re here to hike in the park, soak in the river or simply rest, we hope you leave feeling renewed.</p>
-    <div class="book"><span>Book direct</span><a class="primary" href="https://reyium.com/">Visit reyium.com</a></div>
+    <div class="book"><a class="primary" href="https://reyi.hospitable.rentals/">Book direct</a><a class="primary alt" href="https://reyium.com/">Visit reyium.com</a></div>
     <p class="social"><a href="https://www.instagram.com/reyi_um/">@reyi_um</a><span aria-hidden="true">·</span><a href="https://reyium.com/">reyium.com</a></p>
   </section>
 </main>
